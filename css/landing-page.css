@@ -14,24 +14,24 @@ h6 {
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  
+  background: url("../img/man-smiling-cellphone.jpg") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  
+   
 }
 
 header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
+  background-color: #F88F7A;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+    opacity: 0.1; 
 }
 
 header.masthead h1 {
@@ -40,13 +40,73 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
   header.masthead h1 {
     font-size: 3rem;
   }
 }
+ 
+
+.features-bots {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.features-quote{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+
+}
+.features-bots  {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.features-bots .features-bots-item {
+  max-width: 20rem;
+}
+
+.features-bots .features-bots-item .features-bots-icon {
+  height: 7rem;
+}
+
+.features-bots .features-bots-item .features-bots-icon i {
+  font-size: 4.5rem;
+}
+
+.features-bots .features-bots-item:hover .features-bots-icon i {
+  font-size: 5rem;
+}
+
+
+
+
+.features-business  {
+  padding-top: 3rem;
+  
+}
+
+.features-business .features-business-item {
+  max-width: 20rem;
+}
+
+.features-business .features-business-item .features-business-icon {
+  height: 7rem;
+}
+
+.features-business .features-business-item .features-business-icon i {
+  font-size: 4.5rem;
+}
+
+.features-business .features-business-item:hover .features-business-icon i {
+  font-size: 5rem;
+}
+
+
+
 
 .showcase .showcase-text {
   padding: 3rem;
@@ -64,7 +124,7 @@ header.masthead h1 {
 }
 
 .features-icons {
-  padding-top: 7rem;
+  padding-top: 1rem;
   padding-bottom: 7rem;
 }
 
