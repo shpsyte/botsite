@@ -1,0 +1,50 @@
+
+/* docking */
+.wc-hidden {
+    visibility: hidden; 
+}
+  .wc-header{
+    height: 50px !important;
+  }
+.wc-header span{
+     /* background: url('../img/avatarBot.png')  no-repeat left 15px   ; */
+    padding-left: 40px !important;
+    
+    padding-top: 20px;
+    
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 1;
+    
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+   
+.wc-upload{
+      visibility: hidden;
+}
+.wc-message-groups {
+    background: url('../img/fundo.png')  no-repeat center center;
+    background-size: cover;
+}
+ 
+
+
+.wc-message-from-me .wc-message-content {
+    background-color: #DCF8C6;
+    color: #000000; }
+
+.wc-message-from-me svg.wc-message-callout path {
+fill: #DCF8C6; }
+
+.wc-message-from-bot .wc-message-content {
+    background-color: #ffffff;
+    color: #000000; }
+
+
+.wc-message-from-bot svg.wc-message-callout path {
+fill: #ffffff; }
+  
