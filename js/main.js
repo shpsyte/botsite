@@ -34,9 +34,9 @@ const bot = {
 };
 
 const botConnection = new BotChat.DirectLine({
-    domain: 'brazilsouth.api.cognitive.microsoft.com',
+    //domain: 'brazilsouth.api.cognitive.microsoft.com',
     secret: params['s'],
-    token: params['t'] || '',
+    //token: params['t'] || '',
     webSocket: true
 });
 
@@ -45,9 +45,10 @@ BotChat.App({
     user: user,
     bot: bot,
     resize: 'detect',
-    sendTyping: true,
-    locale: 'pt-BR'
+    sendTyping: true
+    //locale: 'pt-BR'
 }, document.getElementById("chatBot"));
+ 
 
 // function postButtonMessage() {
 //     botConnection
@@ -61,6 +62,5 @@ BotChat.App({
 //         console.log('"buttonClicked" sent');
 //       });
 //   };
-
 
 //   postButtonMessage();
