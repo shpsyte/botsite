@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     document.querySelector(".wc-header span").innerHTML = params['botname'];
     document.querySelector(".wc-shellinput").placeholder = params['placeholder'];
     document.querySelector(".wc-header span").style.background = 'url(' + avatar + ') no-repeat left 15px';
-    document.querySelector(".wc-header span").style.backgroundSize  = '30px 30px';
+    document.querySelector(".wc-header span").style.backgroundSize = '30px 30px';
 });
 
 
@@ -34,7 +34,7 @@ const bot = {
 };
 
 const botConnection = new BotChat.DirectLine({
-    domain: params['domain'] || '',
+    domain: 'brazilsouth.api.cognitive.microsoft.com',
     secret: params['s'],
     token: params['t'] || '',
     webSocket: true
@@ -48,3 +48,19 @@ BotChat.App({
     sendTyping: true,
     locale: 'pt-BR'
 }, document.getElementById("chatBot"));
+
+// function postButtonMessage() {
+//     botConnection
+//       .postActivity({
+//         from: { id: 'me' },
+//         name: 'buttonClicked',
+//         type: 'event',
+//         value: 'oi'
+//       })
+//       .subscribe(function (id) {
+//         console.log('"buttonClicked" sent');
+//       });
+//   };
+
+
+//   postButtonMessage();
