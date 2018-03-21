@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     document.querySelector(".wc-header span").innerHTML = params['botname'];
     document.querySelector(".wc-shellinput").placeholder = params['placeholder'];
     document.querySelector(".wc-header span").style.background = 'url(' + avatar + ') no-repeat left 15px';
-
+    document.querySelector(".wc-header span").style.backgroundSize  = '30px 30px';
 });
 
 
