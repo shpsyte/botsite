@@ -14,7 +14,6 @@ var head = document.getElementsByTagName('head')[0];
 var link = document.createElement('link');
 var customcss = 'css/' + params['css'] + '.css';
 
-
 link.id = "cssId";
 link.rel = 'stylesheet';
 link.type = 'text/css';
