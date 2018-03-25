@@ -22,13 +22,32 @@
     height: 100%;
     z-index: -1;
 }
-   
+
+.power{
+     background-color: #d4dee9;
+     float: right;
+     margin-top: 10px;
+     border-radius: 25px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding:    5px;
+     color: #112c47;
+     font-size: 12px;
+     text-decoration:none;
+     
+}
+.wc-console {
+    border: 1px solid #112c47 !important;
+     
+}
 .wc-upload{
       visibility: hidden;
 }
+
+
 .wc-message-groups {
     background: url('../img/fundo.png')  no-repeat center center;
     background-size: cover;
+     
 }
  
 

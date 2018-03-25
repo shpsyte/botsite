@@ -6,6 +6,20 @@ document.addEventListener("DOMContentLoaded", function (event) {
     document.querySelector(".wc-shellinput").placeholder = params['placeholder'];
     document.querySelector(".wc-header span").style.background = 'url(' + avatar + ') no-repeat left 15px';
     document.querySelector(".wc-header span").style.backgroundSize = '30px 30px';
+
+
+    var element = document.createElement("a");
+    var createAText = document.createTextNode("By Bot4App");
+    element.setAttribute('href', "https://bots4app.azurewebsites.net/");
+    element.setAttribute('target', "_blank");
+    element.appendChild(createAText);
+
+    element.className = 'power';
+   // element.appendChild(document.createTextNode('<a href="" target="_blank">By Chat4App </a>'));
+    document.querySelector(".wc-header").appendChild(element);
+
+
+
 });
 
 
