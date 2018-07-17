@@ -1,78 +1,191 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
 <head>
-    <title>Chatbots - Soluções p/ Assistente Virtual e Atendimento ao Cliente</title>
+    <title>Chatbots - For your company!</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Chatbots - Soluções p/ Assistente Virtual e Atendimento ao Cliente" />
+    <meta name="description" content="Chatbots - For your company!" />
     <meta http-equiv="content-language" content="pt-br" />
     <meta http-equiv="content-type" content="text/html" />
     <meta name="copyright" content="© 2018 Bots4App" />
     <meta name="robots" content="noodp">
     <meta name="author" content="Bots 4 App">
-    <meta name="keywords" content="Chatboot, Dialogflow, Robo Virtual, Assistente Virtual, Chatbot Cognitives Services">
-    <meta name="description" content="Chatbots - Soluções p/ Chatbot, Assistente Virtual e Atendimento ao Cliente. Temos Soluções em Chatbot p/ Pequenas e Grandes Empresas." />
-    <meta property="og:locale" content="pt_BR" />
+    <meta name="keywords" content="Chatboot, Dialogflow, Virtual Assistant, Chatbot Cognitives Services">
+    <meta name="description" content="Chatbots - Solution for your company."/>
+    <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Chatbots - Soluções p/ Assistente Virtual e Atendimento ao Cliente" />
-    <meta property="og:description" content="Chatbots são Assistentes Virtuais Inteligentes p/ Atendimento ao cliente. Temos Soluções em Chatbot p/ Pequenas e Grandes Empresas." />
+    <meta property="og:title" content="Chatbots - Solution for your company." />
+    <meta property="og:description" content="Chatbots - Solution for your company."/>
     <meta property="og:site_name" content="Bot4App" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:description" content="Chatbots são Assistentes Virtuais Inteligentes p/ Atendimento ao cliente. Temos Soluções em Chatbot p/ Pequenas e Grandes Empresas." />
-    <meta name="twitter:title" content="Chatbots - Soluções p/ Assistente Virtual e Atendimento ao Cliente" />
+    <meta name="twitter:description" content="Chatbots - Solution for your company."/>
+    <meta name="twitter:title" content="Chatbots - Solution for your company." />
     <script>
-        if (navigator.userAgent.indexOf("Speed Insights") == -1) {
-            var script = document.createElement('script');
-            script.setAttribute('src', 'https://www.googletagmanager.com/gtag/js?id=UA-116397345-1');
-            script.setAttribute('type', 'text/javascript');
-            document.getElementsByTagName('head')[0].appendChild(script);
-            window.dataLayer = window.dataLayer || [];
+        var script = document.createElement('script');
+        script.setAttribute('src', 'https://www.googletagmanager.com/gtag/js?id=UA-116397345-1');
+        script.setAttribute('type', 'text/javascript');
+        document.getElementsByTagName('head')[0].appendChild(script);
+        window.dataLayer = window.dataLayer || [];
 
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-            gtag('config', 'UA-116397345-1');
+        function gtag() {
+            dataLayer.push(arguments);
         }
+        gtag('js', new Date());
+        gtag('config', 'UA-116397345-1');
     </script>
-    <link href="css/custom.min.css" rel="stylesheet"> 
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="css/custom.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+
+
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href="img/favico.png" rel="icon" type="image/png">
 </head>
 
+<!-- <button onclick="Opneva('suporte')" class="btn btn-lg btn-warning"> <img class="img-fluid rounded-circle" width="30px" src="img/Bot4App.png"> &nbsp Atendimento Virtual </button> -->
+
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #cf4647;">
+        <div class="container">
             <a class="navbar-brand" href="/">
-                <p class="nav-link h4 font-weight-bold text-dark"> ChatBot <small>Live</small></p>
+                <p class="nav-link h4 font-weight-bold text-white">BOT
+                    <small>Live</small>
+                </p>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
+            <!-- <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <p class="nav-link h4 font-weight-light text-info"> 41. 3156-4726</p>
+                        <p class="nav-link h4 font-weight-light text-white"> 41. 3156-4726</p>
                     </li>
-                </ul> <span class="navbar-text font-weight-light text-info "> <button onclick="Opneva('suporte')" class="btn btn-lg btn-warning"> <img class="img-fluid rounded-circle" width="30px" src="img/Bot4App.png"> &nbsp Atendimento Virtual </button> </span> </div>
-        </nav>
-    </div>
-    <header class="masthead text-white">
+                </ul> 
+            </div> -->
+        </div>
+    </nav>
+    <header class="masthead text-white" style="background-color: #cf4647">
         <div class="overlay"></div>
         <div class="container">
             <div class="row text-center">
-                <div class="col-12">
-                    <h1 class="font-weight-light ">Automatize conversas com </h1>
-                    <h1 class="font-weight-bold ">Inteligência Artificial</h1> </div>
-                <div class="col-12 mt-3">
-                    <p class="h4 font-weight-light text">Ofereça a melhor experiência em <b class="text-warning"> <i>chatbot</i> </b> para seu cliente.</p>
+                <div class="col-12 mb-4">
+                    <h1 class="font-weight-light ">Automate and enhance your conversation </h1>
+                </div>
+                <div class="col-12 centerdevices">
+                    <div class="computerwrapper">
+                        <div class="computer">
+                            <div class="mask">
+                                <img class="img-fluid" src="img/conversation.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mt-4">
+                    <p class="h2 font-weight-light text-center">Intelligent bot creation that scales on demand.
+                        <p>
+                            <p class="h4 font-weight-light text-center">
+                                BOT live help you to build a great conversation using Bot Framework and Cognitives Services.
+                                <p>
                 </div>
             </div>
         </div>
     </header>
     <section class="features-quote text-center text-info">
         <div class="container">
-            <p class="h2 font-weight-light">A plataforma de <b>chatBot</b> com o melhor da <b>Inteligência Artificial.</b> </p>
-            <p class="lead text-dark"> Ajudamos as empresas a <b>atender, engajar e captar leads</b> usando soluções de comunicação automática (chatbots).</p>
+            <div class="row text-dark">
+
+                <div class="col-md-4 my-3">
+                    <p class="mt-3">
+                        <i class="fas fa-users fa-5x"></i>
+                    </p>
+
+                    <p class="h2 font-weight-light center">Scale you Service</p>
+                    <p class="font-weight-light text-justify">
+                        Chatbot is available 24 hours per day, 7 days a week and they can work with multi channel with many customer.
+                    </p>
+                </div>
+                <div class="col-md-4 my-3">
+                    <p class="mt-3">
+                        <i class="fab fa-stack-exchange fa-5x"></i>
+                    </p>
+                    <p class="h2 font-weight-light center">Engage your audience</p>
+                    <p class="font-weight-light text-justify">
+                        Engage your audience wherever they are! Chatbot can integrate in channel like: Skype, Slack, Website, Teams, Cortana, Facebook
+                    </p>
+                </div>
+                <div class="col-md-4 my-3">
+                    <p class="mt-3">
+                        <i class="fab fa-connectdevelop fa-5x"></i>
+                    </p>
+                    <p class="h2 font-weight-light center">Artificial Intelligence</p>
+                    <p class="font-weight-light text-justify">
+                        Our bot can be use with luis.ai, Qna Maker, Cognitive Services to improve experience with the customer, make conversation
+                        easy.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-center p-5" style="background-color: #3a3e64">
+        <div class="container">
+            <h1 class="font-weight-light text-white">How call on WebChat</h1>
+            <p class="text-white">You can use javascript to call, like this:</p>
+            <p class="text-white">Open Source tool for your Bot:</p>
+            <div class="col-12">
+                <div class="text-left p-2" style="color: #85ff00">
+                    
+<pre style="color: #85ff00"> 
+function OpenBot() 
+{ 
+  height = 500; 
+  width = 400; 
+  top = window.innerHeight- height; 
+  left = window.innerWidth - width - 10; 
+  window.open('https://bots4app.azurewebsites.net/Chat.html?
+                appid={}&avatar={}&botname={}&placeholder={}
+                &userid={}&s={}&css={}&skin={}', '', 'height=' + height + ', width=' + width + ', left=' + l + ', top=' + t); 
+
+}
+
+parameters:
+
+appId = Number of you AppId With us; 
+avatar = Name of your avatar; (soon!)
+botname = Name of your BOT;
+placeholder = placeholder for your input search ;
+userid = Name of your Name; 
+s = Token for you WebChat; 
+css = Name of CustomCss;
+skin = Skin for your chat; (soon!)
+</pre>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features-quote text-center text-dark">
+            <div class="container">
+                <p class="h2 font-weight-light">
+                    "Build better interface for conversation with your customer, it's a good way to loyalty them." 
+                </p>
+                <p class="lead text-dark"> 
+
+
+                </p>
+            </div>
+        </section>
+
+    <!-- <section class="features-quote text-center text-info">
+        <div class="container">
+            <p class="h2 font-weight-light">A plataforma de
+                <b>chatBot</b> com o melhor da
+                <b>Inteligência Artificial.</b>
+            </p>
+            <p class="lead text-dark"> Ajudamos as empresas a
+                <b>atender, engajar e captar leads</b> usando soluções de comunicação automática (chatbots).</p>
         </div>
     </section>
     <section class="text-center text-info ">
@@ -82,30 +195,40 @@
                 <div class="col-md-4 my-3">
                     <div class="card bg-light shadown ">
                         <div class="card-header">
-                            <p class="h4 text-success font-weight-light"> <b>Escale</b> seu atendimento!</p>
+                            <p class="h4 text-success font-weight-light">
+                                <b>Escale</b> seu atendimento!</p>
                         </div>
                         <div class="card-body bg-light ">
-                            <p class="card-text text-justify lead"> Chatbot tem disponibilidade <b>24h por dia, 7 dias por semana</b> e atende a muitos clientes ao mesmo tempo gerando <b>muita economia</b> para sua empresa. </p>
+                            <p class="card-text text-justify lead"> Chatbot tem disponibilidade
+                                <b>24h por dia, 7 dias por semana</b> e atende a muitos clientes ao mesmo tempo gerando
+                                <b>muita economia</b> para sua empresa. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 my-3">
                     <div class="card bg-light shadown ">
                         <div class="card-header">
-                            <p class="h4 text-success font-weight-light"> <b>Automatização</b>!</p>
+                            <p class="h4 text-success font-weight-light">
+                                <b>Automatização</b>!</p>
                         </div>
                         <div class="card-body bg-light ">
-                            <p class="card-text text-justify lead"> Automatize até <b>90% das conversas</b> entregando ao seus clientes um canal de atendimento natural de conversação, sem perder os valores da sua empresa. </p>
+                            <p class="card-text text-justify lead"> Automatize até
+                                <b>90% das conversas</b> entregando ao seus clientes um canal de atendimento natural de conversação,
+                                sem perder os valores da sua empresa. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 my-3">
                     <div class="card bg-light shadown">
                         <div class="card-header">
-                            <p class="h4 text-success font-weight-light">Experiências <b>memoráveis!</b> </p>
+                            <p class="h4 text-success font-weight-light">Experiências
+                                <b>memoráveis!</b>
+                            </p>
                         </div>
                         <div class="card-body bg-light ">
-                            <p class="card-text text-justify lead"> Fidelize seu consumidor e <b>fortaleça sua marca</b> seus clientes conseguem se comunicar de forma tão natural com nossos bots que agradecem de coração. </p>
+                            <p class="card-text text-justify lead"> Fidelize seu consumidor e
+                                <b>fortaleça sua marca</b> seus clientes conseguem se comunicar de forma tão natural com nossos
+                                bots que agradecem de coração. </p>
                         </div>
                     </div>
                 </div>
@@ -117,42 +240,48 @@
             <p class="lead font-weight-light text-dark mb-5">Opere em diversos canais e atinja seu público onde quer que ele esteja.</p>
             <div class="row">
                 <div class="col-md-3 my-3">
-                    <div class="card bg-light shadown"> <img class="card-img-top" src="img/chat-integracao-webchat.png" alt="Card image cap">
+                    <div class="card bg-light shadown">
+                        <img class="card-img-top" src="img/chat-integracao-webchat.png" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text text-info">Sites ou App</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 my-3">
-                    <div class="card bg-light shadown"> <img class="card-img-top" src="img/chat-integracao-facebook.png" alt="Card image cap">
+                    <div class="card bg-light shadown">
+                        <img class="card-img-top" src="img/chat-integracao-facebook.png" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text text-info">Facebook</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 my-3">
-                    <div class="card bg-light shadown"> <img class="card-img-top" src="img/chat-integracao-skype.png" alt="Card image cap">
+                    <div class="card bg-light shadown">
+                        <img class="card-img-top" src="img/chat-integracao-skype.png" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text text-info">Via Skype</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 my-3">
-                    <div class="card bg-light shadown"> <img class="card-img-top" src="img/chat-integracao-telegram.png" alt="Card image cap">
+                    <div class="card bg-light shadown">
+                        <img class="card-img-top" src="img/chat-integracao-telegram.png" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text text-info">Telegram</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 my-3">
-                    <div class="card bg-light shadown"> <img class="card-img-top" src="img/chat-integracao-email.png" alt="Card image cap">
+                    <div class="card bg-light shadown">
+                        <img class="card-img-top" src="img/chat-integracao-email.png" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text text-info">E-mail</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 my-3">
-                    <div class="card bg-light shadown"> <img class="card-img-top" src="img/chat-integracao-slack.png" alt="Card image cap">
+                    <div class="card bg-light shadown">
+                        <img class="card-img-top" src="img/chat-integracao-slack.png" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text text-info">Slack</p>
                         </div>
@@ -164,14 +293,20 @@
     <section class="bg-white text-center">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 d-none d-lg-block"> <img class="img-fluid rousnded-circle " src="img/statistic.png" alt=""> </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img class="img-fluid rousnded-circle " src="img/statistic.png" alt=""> </div>
                 <div class="col-lg-6 col-sm-12">
                     <div class="mt-5">
                         <h1 class="font-weight-light text-info">Eficiência e Simplicidade</h1>
-                        <p class="lead font-weight-light mb-0 text-justify"> Seus clientes conseguem se comunicar de forma tão natural com <b>nossos bots</b> que agradecem de coração.</p>
+                        <p class="lead font-weight-light mb-0 text-justify"> Seus clientes conseguem se comunicar de forma tão natural com
+                            <b>nossos bots</b> que agradecem de coração.</p>
                         <br>
-                        <p class="lead font-weight-light text-justify">Serviços Cognitivos aproveitam o <b>poder da aprendizagem de máquinas,</b> conseguimos trazer inteligência avançada para o seu produto sem a necessidade de ter uma <b>equipe de atendimento</b> à disposição.</p>
-                        <h1 class="font-weight-light text-success"> + Fidelização + Conversão </h1> </div>
+                        <p class="lead font-weight-light text-justify">Serviços Cognitivos aproveitam o
+                            <b>poder da aprendizagem de máquinas,</b> conseguimos trazer inteligência avançada para o seu produto
+                            sem a necessidade de ter uma
+                            <b>equipe de atendimento</b> à disposição.</p>
+                        <h1 class="font-weight-light text-success"> + Fidelização + Conversão </h1>
+                    </div>
                 </div>
             </div>
         </div>
@@ -179,48 +314,61 @@
     <section class="text-center">
         <div class="container">
             <p class="h2 font-weight-light text-info">Inteligência Artificial</p>
-            <p class="lead font-weight-light text-dark mb-5">Utilizamos <b>serviços e ferramentas</b> mais poderosas no mercado. </p>
+            <p class="lead font-weight-light text-dark mb-5">Utilizamos
+                <b>serviços e ferramentas</b> mais poderosas no mercado. </p>
             <div class="row">
                 <div class="col-md-4 my-3">
-                    <div class="card shadown"> <img class="card-img-top" src="img/microsoft-luis-integracao.png" alt="Card image cap">
+                    <div class="card shadown">
+                        <img class="card-img-top" src="img/microsoft-luis-integracao.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">luis.ai</h5>
-                            <p class="card-text text-justify lead">Utilizamos a tecnologia <a href="https//:www.luis.ai" target="_blank">luis.ai</a> da Microsoft. Uma solução robusta que usa o Processamento de Linguagem Natural para entender o que seu cliente precisa.</p>
+                            <p class="card-text text-justify lead">Utilizamos a tecnologia
+                                <a href="https//:www.luis.ai" target="_blank">luis.ai</a> da Microsoft. Uma solução robusta que usa o Processamento de Linguagem Natural
+                                para entender o que seu cliente precisa.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 my-3">
-                    <div class="card shadown"> <img class="card-img-top" src="img/congnitive-services.png" alt="Card image cap">
+                    <div class="card shadown">
+                        <img class="card-img-top" src="img/congnitive-services.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Cognitives Services</h5>
-                            <p class="card-text text-justify lead">Os Serviços Cognitivos permitem a criação de aplicativos inteligentes com algoritmos avançados usando a <b>inteligência artificial</b> para resolver problemas de negócios. </p>
+                            <p class="card-text text-justify lead">Os Serviços Cognitivos permitem a criação de aplicativos inteligentes com algoritmos avançados
+                                usando a
+                                <b>inteligência artificial</b> para resolver problemas de negócios. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 my-3">
-                    <div class="card shadown"> <img class="card-img-top" src="img/azure-bot-service.png" alt="Card image cap">
+                    <div class="card shadown">
+                        <img class="card-img-top" src="img/azure-bot-service.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Qna Maker</h5>
-                            <p class="card-text text-justify lead">Construímos, treinamos e publicamos chatBot baseado em perguntas e respostas com base em <b>páginas FAQ, documentos PDF estruturados, XlS</b> em minutos.</p>
+                            <p class="card-text text-justify lead">Construímos, treinamos e publicamos chatBot baseado em perguntas e respostas com base em
+                                <b>páginas FAQ, documentos PDF estruturados, XlS</b> em minutos.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="features-quote bg-light text-center text-dark mt-5 ">
+    </section> -->
+    <!-- <section class="features-quote bg-light text-center text-dark mt-5 ">
         <p class="h1 font-weight-bold">Solicite mais informação agora!</p>
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-6 text-right">
-                    <dl> <dt class="text-dark">Integração com API</dt>
-                        <dd class="font-weight-light">Integração com software utilizando REST API </dd> <dt class="text-dark">Alta Disponibilidade</dt>
+                    <dl>
+                        <dt class="text-dark">Integração com API</dt>
+                        <dd class="font-weight-light">Integração com software utilizando REST API </dd>
+                        <dt class="text-dark">Alta Disponibilidade</dt>
                         <dd class="font-weight-light">Hospedado no Azure da Microsoft.</dd>
                     </dl>
                 </div>
                 <div class="col-md-6 text-left">
-                    <dl> <dt class="text-dark">Send Grid</dt>
-                        <dd class="font-weight-light">Integração total com SendGrid.</dd> <dt class="text-dark">Save History</dt>
+                    <dl>
+                        <dt class="text-dark">Send Grid</dt>
+                        <dd class="font-weight-light">Integração total com SendGrid.</dd>
+                        <dt class="text-dark">Save History</dt>
                         <dd class="font-weight-light">30 dias de histórico salvo.</dd>
                     </dl>
                 </div>
@@ -231,110 +379,45 @@
                 <div class="col-md-6 offset-md-3">
                     <div class="card">
                         <div class="card-header text-white bg-danger">
-                            <h4 class="font-weight-light"> Solicite mais informação aqui! </h4> </div>
-                        <div class="card-body text-dark">
-                            <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads1313595000003132015 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
-                                <input type='text' style='display:none;' name='xnQsjsdp' value='75d2714fddaa281d450c1ae6dad08b4fd7c6432161c46ce6da07567dd4931f07' />
-                                <input type='hidden' name='zc_gad' id='zc_gad' value='' />
-                                <input type='text' style='display:none;' name='xmIwtLD' value='21e728f9917ef754bf7673a9d918417995600449ea8a009fa2bd21c48ca82776' />
-                                <input type='text' style='display:none;' name='actionType' value='TGVhZHM=' />
-                                <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;bots4app.azurewebsites.net&#x2f;thank-you.html' />
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="Last Name" placeholder="Nome"> </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="Email" placeholder="Email"> </div>
-                                <button class="btn btn-info btn-lg mb-3">Solicitar!</button>
-                                <div style='display:none;'>
-                                    <select style='width:250px;' name='Lead Status'>
-                                        <option value='-None-'>-None-</option>
-                                        <option selected value='Nao&#x20;Qualifcados'>Nao Qualifcados</option>
-                                        <option value='Descarte'>Descarte</option>
-                                        <option value='Nutricao'>Nutricao</option>
-                                        <option value='Oportunidade&#x20;de&#x20;Vendas'>Oportunidade de Vendas</option>
-                                        <option value='Fechado&#x2f;Negociado'>Fechado&#x2f;Negociado</option>
-                                    </select>
-                                    <select style='width:250px;' name='LEADCF5'>
-                                        <option value='-None-'>-None-</option>
-                                        <option value='ERP'>ERP</option>
-                                        <option value='Todos'>Todos</option>
-                                        <option selected value='Chatbot'>Chatbot</option>
-                                        <option value='Outros'>Outros</option>
-                                    </select>
-                                </div>
-                                <script>
-                                    var mndFileds = new Array('Last Name');
-                                    var fldLangVal = new Array('Sobrenome');
-                                    var name = '';
-                                    var email = '';
-
-                                    function checkMandatory() {
-                                        for (i = 0; i < mndFileds.length; i++) {
-                                            var fieldObj = document.forms['WebToLeads1313595000003132015'][mndFileds[i]];
-                                            if (fieldObj) {
-                                                if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
-                                                    if (fieldObj.type == 'file') {
-                                                        alert('Selecione um arquivo para fazer o upload.');
-                                                        fieldObj.focus();
-                                                        return false;
-                                                    }
-                                                    alert(fldLangVal[i] + ' não pode ficar em branco.');
-                                                    fieldObj.focus();
-                                                    return false;
-                                                } else if (fieldObj.nodeName == 'SELECT') {
-                                                    if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
-                                                        alert(fldLangVal[i] + ' não pode ficar em branco.');
-                                                        fieldObj.focus();
-                                                        return false;
-                                                    }
-                                                } else if (fieldObj.type == 'checkbox') {
-                                                    if (fieldObj.checked == false) {
-                                                        alert('Please accept ' + fldLangVal[i]);
-                                                        fieldObj.focus();
-                                                        return false;
-                                                    }
-                                                }
-                                                try {
-                                                    if (fieldObj.name == 'Last Name') {
-                                                        name = fieldObj.value;
-                                                    }
-                                                } catch (e) {}
-                                            }
-                                        }
-                                    }
-                                </script>
-                            </form>
+                            <h4 class="font-weight-light"> Solicite mais informação aqui! </h4>
                         </div>
+
                     </div>
                 </div>
             </div>
-    </section>
-    <footer class="footer bg-dark">
+    </section> -->
+    <footer class="footer" style="background-color: #cf4647">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 h-100 text-center text-lg-left my-auto text-white">
-                    <p class="font-weight-light mb-4 mb-lg-0">&copy; Chatbot 2018 </p>
+                    <p class="font-weight-light mb-4 mb-lg-0">&copy; BOT live </p>
                 </div>
                 <div class="col-lg-4 text-white ">
-                    <p class="h4 font-weight-light text-white">41. 3156-4726</p>
+                    <p class="h4 font-weight-light text-white"><a href="http://joseluiz.net/about">contact</a></p>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-8 h-100 text-center text-lg-left my-auto text-white"> </div>
                 <div class="col-lg-4 text-white">
-                    <button onclick="Opneva('suporte')" class="btn btn-outline-light"> <img class="img-fluid rounded-circle" width="30px" src="img/Bot4App.png"> &nbsp Atendimento Virtual </button>
+                    <button onclick="Opneva('suporte')" class="btn btn-outline-light">
+                        <img class="img-fluid rounded-circle" width="30px" src="img/Bot4App.png"> &nbsp Atendimento Virtual </button>
                 </div>
-            </div>
+            </div> -->
         </div>
     </footer>
-    <a id="subirTopo"> <img class="img-fluid rounded-circle" width="30px" src="img/bot4app.png"> </a>
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <a id="subirTopo">
+        <img class="img-fluid rounded-circle" width="30px" src="img/bot4app.png"> </a>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+
     <script>
         $("#subirTopo").hide();
-        $('a#subirTopo').click(function() {
+        $('a#subirTopo').click(function () {
             Opneva('suporte');
         });
-        $(window).scroll(function() {
+        $(window).scroll(function () {
             if ($(window).scrollTop() > 400) {
                 $('#subirTopo').fadeIn();
             } else {
