@@ -1,7 +1,6 @@
 const params = BotChat.queryParams(location.search);
 var avatar = '"img/' + params['avatar'] + '"';
-
-document.addEventListener("DOMContentLoaded", function (event) {
+    document.addEventListener("DOMContentLoaded", function (event) {
     document.querySelector(".wc-header span").innerHTML = params['botname'];
     document.querySelector(".wc-shellinput").placeholder = params['placeholder'];
     document.querySelector(".wc-header span").style.background = 'url(' + avatar + ') no-repeat left 15px';
@@ -17,11 +16,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     element.className = 'power';
    // element.appendChild(document.createTextNode('<a href="" target="_blank">By Chat4App </a>'));
     document.querySelector(".wc-header").appendChild(element);
-
-
-
 });
-
 
 //Load css
 var head = document.getElementsByTagName('head')[0];

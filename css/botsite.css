@@ -457,8 +457,7 @@ body .wc-app, .wc-app button, .wc-app input, .wc-app textarea {
     bottom: 0;
     left: 48px;
     right: 49px; }
-    .wc-console .wc-textbox input {
-      background-color: transparent; }
+    
   .wc-console .wc-mic,
   .wc-console .wc-send {
     background-color: transparent;
